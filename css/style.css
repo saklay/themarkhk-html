@@ -1,0 +1,703 @@
+@import url('bootstrap.css');
+@import url('bootstrap-responsive.css');
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+/*  -----------------------------------------------------   /*
+	GENERAL
+/*  -----------------------------------------------------   /*
+/**/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #404041 !important;
+	background-color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Georgia', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #e99f00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e99f00;
+	text-decoration: underline;
+}
+
+.bold		{ font-weight: bold !important; }
+.left		{ float: left; }
+.right		{ float: right; }
+.clearAll	{ clear: both; }
+.hide		{ display: none; }
+.nowrap		{ white-space: nowrap; }
+.textright	{ text-align: right; }
+.textleft	{ text-align: left; }
+.textcenter	{ text-align: center; }
+.annotation	{ font-size: 12px; }
+
+
+/*  -----------------------------------------------------   /*
+	Container
+/*  -----------------------------------------------------   /*
+/**/
+
+.container {
+	width: 1024px;
+	/* max-width: 1024px; */
+	margin: 0 auto;
+}
+
+
+/*  -----------------------------------------------------   /*
+	Fonts
+/*  -----------------------------------------------------   /*
+/**/
+
+@font-face {
+    font-family: 'DidotBold';
+    font-weight: normal;
+    font-style: 600;
+    src: url('../fonts/didot_bold.eot');
+    src: url('../fonts/didot_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/didot_bold.ttf') format('truetype');
+}
+
+.georgia {
+	font-family: 'Georgia', sans-serif;
+}
+
+
+/*  -----------------------------------------------------   /*
+	Holding page
+/*  -----------------------------------------------------   /*
+/**/
+
+#holdingpage .logo {
+	position: relative;
+	background: transparent url('../images/logo-holdingpage.png') no-repeat center left;
+	width: 251px;
+	height: 92px;
+	text-indent: -9999px;
+	float: left;
+	margin-top: 60px;
+}
+
+/*
+#holdingpage .yellow-circle {
+	position: relative;
+	background: #f4cd02;
+	color: #404041;
+	float: right;
+	width: 760px;
+	height: 760px;
+	-webkit-border-radius: 380px;
+	-moz-border-radius: 380px;
+	-ms-border-radius: 380px;
+	-o-border-radius: 380px;
+	border-radius: 380px;
+	margin-top: -250px;
+	margin-right: 30px;
+	behavior: url('pie/PIE.htc');
+}
+*/
+
+#holdingpage .yellow-circle {
+	position: relative;
+	background: transparent url('../images/bg-yellow-circle.png') no-repeat top left;
+	color: #404041;
+	float: right;
+	width: 762px;
+	height: 762px;
+	margin-top: -250px;
+	margin-right: 30px;
+}
+
+#holdingpage .yellow-circle .circle-container {
+	padding: 220px 110px 0 110px;
+}
+
+#holdingpage .yellow-circle .circle-container h1 {
+	background: transparent url('../images/logo-tm.png') no-repeat center right;
+	font-size: 52px;
+	font-weight: normal;
+	line-height: 60px;
+	padding-right: 30px;
+	display: inline;
+}
+
+#holdingpage .yellow-circle .circle-container p {
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 20px 0;
+	padding: 0;
+}
+
+/*
+#holdingpage .grey-circle {
+	position: relative;
+	background: #e5e5e5;
+	color: #505051;
+	float: left;
+	width: 310px;
+	height: 310px;
+	-webkit-border-radius: 155px;
+	-moz-border-radius: 155px;
+	-ms-border-radius: 155px;
+	-o-border-radius: 155px;
+	border-radius: 155px;
+	margin-top: -300px;
+	behavior: url('pie/PIE.htc');
+}
+*/ 
+
+#holdingpage .grey-circle {
+	position: relative;
+	background: transparent url('../images/bg-grey-circle.png') no-repeat top left;
+	color: #505051;
+	float: left;
+	width: 309px;
+	height: 309px;
+	margin-top: -300px;
+}
+
+#holdingpage .grey-circle .circle-container {
+	padding: 60px 0 0 60px;
+}
+
+#holdingpage .grey-circle .circle-container h4 {
+	font-size: 27px;
+	font-weight: normal;
+	line-height: 40px;
+}
+
+#holdingpage .grey-circle .circle-container p {
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 10px 0;
+	padding: 0;
+}
+
+#holdingpage .footer {
+	text-align: right;
+	margin: 40px 0;
+	padding: 0;
+	font-size: 11px;
+	color: #333;
+}
+
+
+/*  -----------------------------------------------------   /*
+	Icons
+/*  -----------------------------------------------------   /*
+/**/
+
+.icons {
+	font-size: 18px !important;
+	height: 18px;
+	padding-left: 25px !important;
+	vertical-align: center;
+	display: block;
+	width: 100%;
+}
+
+.icon-phone {
+	background: transparent url('../images/icon-phone.png') no-repeat center left;
+}
+
+.icon-email {
+	background: transparent url('../images/icon-email.png') no-repeat center left;
+}
+
+
+/*  -----------------------------------------------------   /*
+	Header
+/*  -----------------------------------------------------   /*
+/**/
+
+header {
+	margin-top: 60px;
+	font-size: 15px;
+}
+
+header .logo {
+	background: transparent url('../images/logo-themark.png') no-repeat center center;
+	width: 208px;
+	height: 72px;
+	text-indent: -9999px;
+	display: block;
+}
+
+header .bt-leasingnow {
+	background: transparent url('../images/bt-leasingnow.png') no-repeat center center;
+	width: 116px;
+	height: 116px;
+	text-indent: -9999px;
+	display: block;
+}
+
+header h1 {
+	font-family: 'DidotBold', sans-serif;
+	font-size: 35px;
+	line-height: 60px;
+}
+
+header p {
+	line-height: 22px;
+}
+
+
+
+/*  -----------------------------------------------------   /*
+	Footer
+/*  -----------------------------------------------------   /*
+/**/
+
+footer {
+	font-size: 11px;
+	color: #333;
+	padding: 50px 0 20px 0;
+}
+
+footer a {
+	color: #333;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+footer .links span {
+	margin-right: 10px;
+}
+
+
+/*  -----------------------------------------------------   /*
+	The Perks
+/*  -----------------------------------------------------   /*
+/**/
+
+#theperks {
+	padding: 0 20px;
+}
+
+#theperks h2 {
+	background: transparent url('../images/logo-tm-small.png') no-repeat center right;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 45px;
+	padding-right: 17px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#theperks p {
+	color: #666;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+
+/*  -----------------------------------------------------   /*
+	The Look
+/*  -----------------------------------------------------   /*
+/**/
+
+#thelook {
+}
+
+#thelook h2 {
+	font-size: 25px;
+	font-weight: normal;
+	color: #404041;
+}
+
+#thelook h3 {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #404041;
+}
+
+#thelook ul.specifications {
+	margin: 0 0 10px 15px;
+}
+
+#thelook ul.specifications li {
+	background: none;
+	margin: 0;
+	padding: 5px;
+	cursor: pointer;
+}
+
+#thelook ul.specifications li:hover, #thelook ul.specifications li.selected {
+	background: #f4cd02;
+}
+
+#thelook ul.layoutslider {
+	margin: 0;
+}
+
+#thelook .content-width{
+	width: 430px;
+	margin: 30px 0;
+}
+
+#thelook .details {
+	width: 100%;
+	background: #f9f7f7;
+	font-size: 13px;
+	color: #666;
+	line-height: 20px;
+	margin: 35px 0;
+}
+
+#thelook .details .title {
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+#thelook .details .specs {
+	width: 50%;
+	background: #eee top left;
+	font-size: 17px;
+	line-height: 24px;
+	color: #303030;
+}
+
+#thelook .details .specs .team {
+	width: 100%;
+	background: #e7e7e7;
+	color: #666;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+#thelook .specs-content {
+	-webkit-transition: all 0.25s cubic-bezier(0.49, 0.37, 0.445, 0.715);
+	-moz-transition: all 0.25s cubic-bezier(0.49, 0.37, 0.445, 0.715);
+	-o-transition: all 0.25s cubic-bezier(0.49, 0.37, 0.445, 0.715);
+	transition: all 0.25s cubic-bezier(0.49, 0.37, 0.445, 0.715);
+	-webkit-transition-timing-function: ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+
+#thelook .specs-content p {
+	margin: 10px 0;
+	line-height: 20px;
+}
+
+
+
+/*  -----------------------------------------------------   /*
+	The Area
+/*  -----------------------------------------------------   /*
+/**/
+
+#thearea {
+}
+
+#thearea .map-links {
+	color: #ecac22;
+	font-size: 11px;
+}
+
+#thearea .map-links img {
+	border: 3px solid #fff;
+	cursor: pointer;
+}
+
+#thearea .map-links img:hover, #thearea .map-links img.active {
+	border: 3px solid #f4cd02;
+}
+
+#thearea .map-container {
+	background:#efefef center center;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+#thearea .map-container img {
+	width: 100%;
+	max-width: none;
+	height: auto;
+}
+
+
+/*  -----------------------------------------------------   /*
+	Leasing Now
+/*  -----------------------------------------------------   /*
+/**/
+
+.leasingnow-wrapper {
+	-webkit-border-radius: 235px !important;
+	-moz-border-radius: 235px !important;
+	-ms-border-radius: 235px !important;
+	-o-border-radius: 235px !important;
+	border-radius: 235px !important;
+	behavior: url('pie/PIE.htc');
+}
+
+#leasingnow .leasingnow-container {
+	background: #e5e5e5;
+	float: left;
+	width: 440px;
+	height: 440px;
+	-webkit-border-radius: 220px !important;
+	-moz-border-radius: 220px !important;
+	-ms-border-radius: 220px !important;
+	-o-border-radius: 220px !important;
+	border-radius: 220px !important;
+	margin: 15px 0 0 15px;
+	behavior: url('pie/PIE.htc');
+}
+
+#leasingnow .leasingnow-container .leasingnow-content {
+	margin: 100px 60px 0 80px;
+	color: #333;
+	font-size: 18px;
+}
+
+#leasingnow .leasingnow-container .leasingnow-content .icons {
+	font-size: 25px !important;
+	line-height: 24px;
+	height: 25px;
+	padding-left: 40px !important;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#leasingnow .leasingnow-container .leasingnow-content .icon-phone {
+	background: transparent url('../images/icon-phone-leasingnow.png') no-repeat center left;
+}
+
+#leasingnow .leasingnow-container .leasingnow-content .icon-email {
+	background: transparent url('../images/icon-email-leasingnow.png') no-repeat center left;
+}
+
+
+/*  -----------------------------------------------------   /*
+	Footer Links Lightbox
+/*  -----------------------------------------------------   /*
+/**/
+
+.footerlinks-wrapper {
+	-webkit-border-radius: 350px !important;
+	-moz-border-radius: 350px !important;
+	-ms-border-radius: 350px !important;
+	-o-border-radius: 350px !important;
+	border-radius: 350px !important;
+	behavior: url('pie/PIE.htc');
+}
+
+.footerlinks-container {
+	background: #e5e5e5;
+	float: left;
+	width: 670px;
+	height: 670px;
+	-webkit-border-radius: 335px !important;
+	-moz-border-radius: 335px !important;
+	-ms-border-radius: 335px !important;
+	-o-border-radius: 335px !important;
+	border-radius: 335px !important;
+	margin: 15px 0 0 15px;
+	behavior: url('pie/PIE.htc');
+}
+
+.footerlinks-container .footerlinks-content {
+	font-size: 13px;
+	font-weight: normal;
+	color: #666;
+	margin: 140px 80px 100px 80px;
+	height: 400px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.footerlinks-container .footerlinks-content h5 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #404041;
+}
+
+.footerlinks-container .footerlinks-content p {
+	margin: 10px 0;
+	line-height: 20px;
+}
+
+
+/*  -----------------------------------------------------   /*
+	Margins / Paddings
+/*  -----------------------------------------------------   /*
+/**/
+
+.margintop15 {
+	margin-top: 15px !important;
+}
+
+.margintop30 {
+	margin-top: 30px !important;
+}
+
+.margintop50 {
+	margin-top: 50px !important;
+}
+
+.marginleft60 {
+	margin-left: 60px !important;
+}
+
+.marginright30 {
+	margin-right: 30px !important;
+}
+
+.marginright45 {
+	margin-right: 45px !important;
+}
+
+
+/*  -----------------------------------------------------   /*
+	Responsive layout adjustments
+/*  -----------------------------------------------------   /*
+/**/
+
+@media (min-width: 1200px) {
+}
+
+/* Portrait tablet to landscape and desktop */
+/*
+@media (min-width: 768px) and (max-width: 979px) {
+	.container {
+		width: 100%;
+	}
+	
+	#holdingpage .logo {
+		margin-top: 0;
+	}
+	
+	#holdingpage .yellow-circle {
+		width: 650px;
+		height: 650px;
+		-webkit-border-radius: 325px;
+		-moz-border-radius: 325px;
+		-ms-border-radius: 325px;
+		-o-border-radius: 325px;
+		border-radius: 325px;
+		margin-top: -100px;
+		margin-right: -90px;
+		behavior: url('pie/PIE.htc');
+	}
+	
+	#holdingpage .yellow-circle .circle-container {
+		padding: 100px 110px 0 110px;
+	}
+	
+	#holdingpage .grey-circle {
+		margin-top: -200px;
+	}
+}
+*/
+
+/* Landscape phone to portrait tablet */
+/*
+@media (max-width: 767px) {
+	#holdingpage .logo {
+		float: none;
+	}
+	
+	#holdingpage .yellow-circle {
+		float: none;
+		margin: 0 auto;
+		width: 500px;
+		height: 500px;
+		-webkit-border-radius: 250px;
+		-moz-border-radius: 250px;
+		-ms-border-radius: 250px;
+		-o-border-radius: 250px;
+		border-radius: 250px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		behavior: url('pie/PIE.htc');
+	}
+	
+	#holdingpage .yellow-circle .circle-container {
+		padding: 100px 40px 0 60px;
+	}
+	
+	#holdingpage .yellow-circle .circle-container h1 {
+		font-size: 52px;
+		line-height: 50px;
+	}
+	
+	#holdingpage .yellow-circle .circle-container p {
+		font-size: 16px;
+		line-height: 18px;
+		margin: 15px 0;
+	}
+	
+	#holdingpage .grey-circle {
+		float: none;
+		margin: 0 auto;
+	}
+}
+*/
+
+/* Landscape phones and down */
+/*
+@media (max-width: 480px) {
+	#holdingpage .logo {
+		float: none;
+	}
+	
+	#holdingpage .yellow-circle {
+		float: none;
+		margin: 0 auto;
+		width: 350px;
+		height: 350px;
+		-webkit-border-radius: 175px;
+		-moz-border-radius: 175px;
+		-ms-border-radius: 175px;
+		-o-border-radius: 175px;
+		border-radius: 175px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		behavior: url('pie/PIE.htc');
+	}
+	
+	#holdingpage .yellow-circle .circle-container {
+		padding: 80px 20px 0 40px;
+	}
+	
+	#holdingpage .yellow-circle .circle-container h1 {
+		font-size: 25px;
+		line-height: 20px;
+	}
+	
+	#holdingpage .yellow-circle .circle-container p {
+		font-size: 14px;
+		line-height: 14px;
+		margin: 10px 0;
+	}
+	
+	#holdingpage .grey-circle {
+		float: none;
+		margin: 0 auto;
+	}
+}
+*/
