@@ -248,8 +248,8 @@ header .bt-leasingnow {
 
 header h1 {
 	font-family: 'DidotBold', sans-serif;
-	font-size: 35px;
-	line-height: 60px;
+	font-size: 45px;
+	line-height: 65px;
 }
 
 header p {
@@ -498,24 +498,24 @@ footer .links span {
 /**/
 
 .footerlinks-wrapper {
-	-webkit-border-radius: 350px !important;
-	-moz-border-radius: 350px !important;
-	-ms-border-radius: 350px !important;
-	-o-border-radius: 350px !important;
-	border-radius: 350px !important;
+	-webkit-border-radius: 320px !important;
+	-moz-border-radius: 320px !important;
+	-ms-border-radius: 320px !important;
+	-o-border-radius: 320px !important;
+	border-radius: 320px !important;
 	behavior: url('pie/PIE.htc');
 }
 
 .footerlinks-container {
 	background: #e5e5e5;
 	float: left;
-	width: 670px;
-	height: 670px;
-	-webkit-border-radius: 335px !important;
-	-moz-border-radius: 335px !important;
-	-ms-border-radius: 335px !important;
-	-o-border-radius: 335px !important;
-	border-radius: 335px !important;
+	width: 600px;
+	height: 600px;
+	-webkit-border-radius: 300px !important;
+	-moz-border-radius: 300px !important;
+	-ms-border-radius: 300px !important;
+	-o-border-radius: 300px !important;
+	border-radius: 300px !important;
 	margin: 15px 0 0 15px;
 	behavior: url('pie/PIE.htc');
 }
@@ -525,7 +525,7 @@ footer .links span {
 	font-weight: normal;
 	color: #666;
 	margin: 140px 80px 100px 80px;
-	height: 400px;
+	height: 350px;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
@@ -557,6 +557,10 @@ footer .links span {
 
 .margintop50 {
 	margin-top: 50px !important;
+}
+
+.marginleft35 {
+	margin-left: -35px !important;
 }
 
 .marginleft60 {
