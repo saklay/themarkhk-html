@@ -11,10 +11,12 @@
 <meta name="author" content="" />
 <!-- Mobile Specific Metas -->
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-<meta name="viewport" content="width=1024">
+<meta name="viewport" content="width=1200">
 <!-- Stylesheets -->
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/jquery-ui.css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css" />
+<link rel="stylesheet" href="css/jquery.fancybox.css" />
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -25,39 +27,116 @@
 </head>
 
 <body>
-
-<div id="holdingpage" class="container">
-	<div class="logo">the mark</div>
 	
-	<div class="yellow-circle">
-		<div class="circle-container">
-			<h1>Offices trademarked for your success</h1>
-			<p>The Mark offers flexible tenancies in approx. 3,500 sq.ft. full-floor units and approx. 1,630 sq.ft. half-floor units. Available Q1 2015.</p>
-			<p>Make your mark in Grade A offices purpose designed for entrepreneurial businesses to thrive.</p>
-			<p class="bold">The Mark, 164 Wai Yip Street, Kwun Tong</p>
-		</div>
-	</div>
-	
-	<div class="grey-circle">
-		<div class="circle-container">
-			<h4>Leasing now</h4>
-			<p><img src="images/logo-jll.png" border=0 /></p>
+<!-- Leasing Now lightbox -->
+<div id="leasingnow" style="width:470px;height:470px;padding:0;margin:0;display: none;">
+	<div class="leasingnow-container">
+		<div class="leasingnow-content">
+			<p><img src="images/logo-jll-leasingnow.png" border=0 /></p>
 			<p>Licence No.: C-003464</p>
-			<p class="icons icon-phone">+852 2846 5800</p>
+			<p class="icons icon-phone margintop15">+852 2846 5800</p>
 			<p class="icons icon-email"><a href="mailto:themark@ap.jll.com">themark@ap.jll.com</a></p>
 		</div>
 	</div>
-	
 	<div class="clearAll"></div>
-	
-	<div class="footer">&copy; 2014 The Mark. All Rights Reserved. 164 Wai Yip Street, Kwun Tong, Kowloon, Hong Kong</div>
 </div>
 
+<!-- Disclaimer lightbox -->
+<div id="disclaimer" style="width:630px;height:630px;padding:0;margin:0;display: none;">
+	<div class="footerlinks-container">
+		<div class="footerlinks-content">
+			<br /><br /><br />
+			<h5>Disclaimer</h5>
+			<p>The owner of The Mark and their agents give notice that: these particulars are set out as a general outline only, for the guidance of intending lessees and do not constitute, nor constitute part of, an offer or contract; all descriptions, dimensions, references to condition and necessary permission for use in occupation and other details are given without responsibility, and any intending tenants should not rely on them as statements of representations of fact, but must satisfy themselves by inspection or otherwise as to the correctness of each of them.</p>
+		</div>
+	</div>
+	<div class="clearAll"></div>
+</div>
+
+<!-- Terms and Conditions lightbox -->
+<div id="termsconditions" style="width:630px;height:630px;padding:0;margin:0;display: none;">
+	<div class="footerlinks-container">
+		<div class="footerlinks-content">
+			<h5>Terms and conditions</h5>
+			<p>By using the Website and in consideration of us providing you with access to the Materials on the Website, you ('You' and 'User') agree to the following terms and conditions of use ('Terms and Conditions of Use'):</p>
+			<p>The Owners of The Mark are not responsible for any errors or omissions contained in this website and reserve the right to make changes without notice. The Owners believe all information given to be reliable but the accuracy is not warranted or guaranteed. The Owners are not liable in any event for any damages whatever arising out of related to this website or the information contained in it.</p>
+			<p>You may not distribute, modify, transmit, reuse, re-post, or use the content of this website for public or commercial purposes without the Owners' written permission. You may download materials displayed on this website for non-commercial or personal use only, provided you do not remove or modify any copyright and other proprietary notices contained in these materials. Nothing contained in this website should be construed as granting a license or right to use any of the Owners' intellectual property rights displayed in this website without the written permission of the Owners.</p>
+			<p>The information given on this website is not intended to create any relationship, whether in contract or otherwise, with you. Nothing on this website is intended to be or should be taken as being advice or a recommendation and you should not rely on the information in the website for any purpose. Information at this website is not an invitation to invest in the Owners or any affiliate.</p>
+			<p>This website may contain materials in which third parties have proprietary rights, including without limitation logos or brand names which are the trade marks of third parties. The Owners grant no license regarding their use and disclaim any liability with regard to infringement of such third parties rights.</p>
+			<p>At various points throughout the website you may be offered automatic links to other internet sites relevant to a particular aspect of this website. This does not indicate that the Owners or their affiliates are necessarily associated with any of these other sites or their respective owners. While it is the intention of the Owners that you should find these other sites of interest, neither the Owners, nor its affiliates or their owners, officers, employees and agents have any responsibility or liability of any nature whatever for these other sites or any information contained in them, none of which have been verified or endorsed by the Owners or their affiliates. If at any time you find that you have accessed another site you may return to this site by clicking on the "backwards" arrow, or by keying in the domain address of The Mark (<a href="http://www.themarkhk.com">http://www.themarkhk.com</a>).</p>
+		</div>
+	</div>
+	<div class="clearAll"></div>
+</div>
+
+<!-- Privacy lightbox -->
+<div id="privacy" style="width:630px;height:630px;padding:0;margin:0;display: none;">
+	<div class="footerlinks-container">
+		<div class="footerlinks-content">
+			<h5>Privacy</h5>
+			<p>Collection and Use of Personal Information.</p>
+			<p>The information that we collect and store during normal use of this website is used to monitor use of the site and to help its further development. Such use does not result in any personally identifiable data being collected or stored. We may use "cookies" to "remember" information about your preferences. You can set up your web browser to accept or reject the "cookies".</p>
+			<p>In any area of our website where The Mark asks you to provide personal information that will enable us to enhance your site visit or to follow up with you after your visit, it is completely optional for you to participate. For example, we request information from you when you:</p>
+			<p>Request information about a product or service</p>
+			<p>Sign up for viewing</p>
+			<p>In each of the instances above, The Mark may ask for your name, e-mail address, phone number, address and type of business, as well as other possible further information for the purpose of responding to your request. If we ever ask for significantly different information we will inform you.</p>
+			<p>Such communications are not confidential and may also be disclosed to our agents or professional advisors including, but not limited to, share registrars, legal advisors, insurers, corporate affairs consultants, etc. depending upon the purpose for which the information was provided. If you inform us that the information should not be used as a basis for further contact we will respect your request.</p>
+		</div>
+	</div>
+	<div class="clearAll"></div>
+</div>
+
+<div id="homepage" class="container-home">
+	<div class="home-logo">
+		<div><img src="images/home-themark.png" border=0 /></div>
+		<br />164 Wai Yip Street
+		<br />Kwun Tong
+	</div>
+	<div class="yellow-circle">
+		<div class="circle-container">
+			<h1>Offices trademarked for your success</h1>
+			<br /><br />
+			<p>Are you a dynamic business looking for efficient, top-notch office space in Kwun Tong?</p>
+			<p>The Mark offers flexible tenancies in approx. 3,563 sq.ft. full-floor units or an approx. 1,662 sq.ft. half-floor presence.</p>
+			<p>But there's more because The Mark goes 'beyond offices' with a range of amenities and services, called The Perks, that have been thoughtfully created to help make your working hours more successful and productive.</p>
+			<p>Make your mark at The Mark in offices purpose designed for entrepreneurial businesses to thrive.</p>
+		</div>
+	</div>
+	<div class="link-container">
+		<a class="home-link01" href="thearea.html">the area</a>
+		<a class="home-link02" href="theperks.html">the perks</a>
+		<a class="home-link03" href="thelook.html">the perks</a>
+		<a class="home-link04 home-leasingnow" href="#leasingnow">leasing now</a>
+		<!--
+		<div class="home-link01"><a href="thearea.html"><img src="images/home-link01.png" border=0 /></div>
+		<div class="home-link02"><a href="theperks.html"><img src="images/home-link02.png" border=0 /></div>
+		<div class="home-link03"><a href="thelook.html"><img src="images/home-link03.png" border=0 /></div>
+		<div class="home-link04"><a href="#leasingnow" class="home-leasingnow"><img src="images/home-link04.png" border=0 /></div>
+		-->
+	</div>
+	<div class="clearAll"></div>
+</div>
+
+<div class="container-home">
+	<footer>
+		<div class="row-fluid">
+			<div class="span5 links">
+				<span><a class="footer-links" href="#disclaimer">Disclaimer</a></span>
+				<span><a class="footer-links" href="#termsconditions">Terms and Conditions</a></span>
+				<span><a class="footer-links" href="#privacy">Privacy</a></span>
+			</div>
+			<div class="span5 textright">&copy; 2014 The Mark. All Rights Reserved. 164 Wai Yip Street, Kwun Tong, Kowloon, Hong Kong</div>
+		</div>
+	</footer>
+</div>
 
 <!-- javascripts --> 
 <!-- Placed at the end of the document so the pages load faster --> 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>

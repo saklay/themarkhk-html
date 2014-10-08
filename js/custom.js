@@ -39,7 +39,7 @@ $(document).ready(function () {
 	** Lightbox
 	***************************************/
 	
-	$('.bt-leasingnow').fancybox({
+	$('.bt-leasingnow, .home-leasingnow').fancybox({
 		padding: 0,
 		margin: 0,
 		width: 470,
@@ -53,7 +53,7 @@ $(document).ready(function () {
 		height: 700
 	});
 	
-	$('.bt-leasingnow').click(function(){
+	$('.bt-leasingnow, .home-leasingnow').click(function(){
 		setTimeout(function(){ $('.fancybox-wrap, .fancybox-skin').addClass('leasingnow-wrapper'); }, 100);
 	});
 	

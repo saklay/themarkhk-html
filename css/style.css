@@ -56,6 +56,11 @@ a:hover {
 	margin: 0 auto;
 }
 
+.container-home {
+	width: 1200px;
+	margin: 0 auto;
+}
+
 
 /*  -----------------------------------------------------   /*
 	Fonts
@@ -194,6 +199,111 @@ a:hover {
 	padding: 0;
 	font-size: 11px;
 	color: #333;
+}
+
+
+/*  -----------------------------------------------------   /*
+	Home page
+/*  -----------------------------------------------------   /*
+/**/
+
+#homepage .home-logo {
+	position: relative;
+	z-index: 999;
+	float: left;
+	width: 480px;
+	text-align: center;
+}
+
+#homepage .yellow-circle {
+	position: relative;
+	background: transparent url('../images/bg-yellow-circle-home.png') no-repeat top left;
+	color: #404041;
+	float: left;
+	width: 640px;
+	height: 640px;
+	margin-top: 61px;
+	margin-left: -180px;
+	z-index: 99;
+}
+
+#homepage .yellow-circle .circle-container {
+	padding: 100px 100px 0 180px;
+}
+
+#homepage .yellow-circle .circle-container h1 {
+	background: transparent url('../images/logo-tm-home.png') no-repeat center right;
+	font-size: 37px;
+	font-weight: normal;
+	line-height: 40px;
+	display: inline;
+	margin-bottom: 40px;
+	padding-right: 20px;
+}
+
+#homepage .link-container {
+	float: left;
+	position: relative;
+	z-index: 998;
+}
+
+#homepage .link-container a.home-link01 {
+	background: transparent url('../images/home-link01.png') 0 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	width: 162px;
+	height: 162px;
+	margin-top: 60px;
+	margin-left: -40px;
+}
+
+#homepage .link-container a:hover.home-link01 {
+	background: transparent url('../images/home-link01.png') -162px 0;
+}
+
+#homepage .link-container .home-link02 {
+	background: transparent url('../images/home-link02.png') 0 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	width: 170px;
+	height: 170px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+#homepage .link-container a:hover.home-link02 {
+	background: transparent url('../images/home-link02.png') -170px 0;
+}
+
+#homepage .link-container .home-link03 {
+	background: transparent url('../images/home-link03.png') 0 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	width: 175px;
+	height: 175px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+#homepage .link-container a:hover.home-link03 {
+	background: transparent url('../images/home-link03.png') -175px 0;
+}
+
+#homepage .link-container .home-link04 {
+	background: transparent url('../images/home-link04.png') 0 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	width: 170px;
+	height: 170px;
+	margin-left: -90px;
+}
+
+#homepage .link-container a:hover.home-link04 {
+	background: transparent url('../images/home-link04.png') -170px 0;
 }
 
 
