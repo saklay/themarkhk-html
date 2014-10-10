@@ -352,6 +352,7 @@ header .logo {
 	display: block;
 }
 
+/*
 header .bt-leasingnow {
 	background: transparent url('../images/bt-leasingnow.png') no-repeat center center;
 	width: 116px;
@@ -359,6 +360,7 @@ header .bt-leasingnow {
 	text-indent: -9999px;
 	display: block;
 }
+*/
 
 header h1 {
 	font-family: 'DidotBold', sans-serif;
@@ -368,6 +370,106 @@ header h1 {
 
 header p {
 	line-height: 22px;
+}
+
+header .link-container {
+	margin-top: -50px;
+}
+
+header .link-container a.sublink-thearea {
+	background: transparent url('../images/sublink-thearea.png') 0 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 91px;
+	height: 91px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+header .link-container a:hover.sublink-thearea, header .link-container span.sublink-thearea-selected {
+	background: transparent url('../images/sublink-thearea.png') -91px 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 91px;
+	height: 91px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+header .link-container a.sublink-theperks {
+	background: transparent url('../images/sublink-theperks.png') 0 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 91px;
+	height: 91px;
+	margin-top: -55px;
+	margin-left: 100px;
+}
+
+header .link-container a:hover.sublink-theperks, header .link-container span.sublink-theperks-selected {
+	background: transparent url('../images/sublink-theperks.png') -91px 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 91px;
+	height: 91px;
+	margin-top: -55px;
+	margin-left: 100px;
+}
+
+header .link-container a.sublink-thelook {
+	background: transparent url('../images/sublink-thelook.png') 0 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 91px;
+	height: 91px;
+	margin-top: -15px;
+	margin-left: 170px;
+}
+
+header .link-container a:hover.sublink-thelook, header .link-container span.sublink-thelook-selected {
+	background: transparent url('../images/sublink-thelook.png') -91px 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 91px;
+	height: 91px;
+	margin-top: -15px;
+	margin-left: 170px;
+}
+
+header .link-container a.sublink-leasingnow {
+	background: transparent url('../images/sublink-leasingnow.png') 0 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 91px;
+	height: 91px;
+	margin-top: 5px;
+	margin-left: 215px;
+}
+
+header .link-container a:hover.sublink-leasingnow, header .link-container span.sublink-leasingnow-selected {
+	background: transparent url('../images/sublink-leasingnow.png') -91px 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 91px;
+	height: 91px;
+	margin-top: 5px;
+	margin-left: 215px;
 }
 
 
