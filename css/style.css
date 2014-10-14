@@ -247,8 +247,8 @@ a:hover {
 	z-index: 998;
 }
 
-#homepage .link-container a.home-link01 {
-	background: transparent url('../images/home-link01.png') 0 0;
+#homepage .link-container a.home-link03 {
+	background: transparent url('../images/home-link03.png') 0 0;
 	position: relative;
 	display: block;
 	text-indent: -9999px;
@@ -257,6 +257,22 @@ a:hover {
 	height: 170px;
 	margin-top: 60px;
 	margin-left: -40px;
+}
+
+#homepage .link-container a:hover.home-link03 {
+	background: transparent url('../images/home-link03.png') -170px 0;
+}
+
+#homepage .link-container .home-link01 {
+	background: transparent url('../images/home-link01.png') 0 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 170px;
+	height: 170px;
+	margin-top: 10px;
+	margin-left: 30px;
 }
 
 #homepage .link-container a:hover.home-link01 {
@@ -271,28 +287,12 @@ a:hover {
 	text-decoration: none;
 	width: 170px;
 	height: 170px;
-	margin-top: 10px;
-	margin-left: 30px;
-}
-
-#homepage .link-container a:hover.home-link02 {
-	background: transparent url('../images/home-link02.png') -170px 0;
-}
-
-#homepage .link-container .home-link03 {
-	background: transparent url('../images/home-link03.png') 0 0;
-	position: relative;
-	display: block;
-	text-indent: -9999px;
-	text-decoration: none;
-	width: 170px;
-	height: 170px;
 	margin-top: 20px;
 	margin-left: 10px;
 }
 
-#homepage .link-container a:hover.home-link03 {
-	background: transparent url('../images/home-link03.png') -170px 0;
+#homepage .link-container a:hover.home-link02 {
+	background: transparent url('../images/home-link02.png') -170px 0;
 }
 
 #homepage .link-container .home-link04 {
@@ -376,8 +376,8 @@ header .link-container {
 	margin-top: -50px;
 }
 
-header .link-container a.sublink-thearea {
-	background: transparent url('../images/sublink-thearea.png') 0 0;
+header .link-container a.sublink-thelook {
+	background: transparent url('../images/sublink-thelook.png') 0 0;
 	position: relative;
 	display: block;
 	text-indent: -9999px;
@@ -386,6 +386,30 @@ header .link-container a.sublink-thearea {
 	height: 91px;
 	margin-top: 0;
 	margin-left: 0;
+}
+
+header .link-container a:hover.sublink-thelook, header .link-container span.sublink-thelook-selected {
+	background: transparent url('../images/sublink-thelook.png') -91px 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 91px;
+	height: 91px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+header .link-container a.sublink-thearea {
+	background: transparent url('../images/sublink-thearea.png') 0 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	text-decoration: none;
+	width: 91px;
+	height: 91px;
+	margin-top: -55px;
+	margin-left: 100px;
 }
 
 header .link-container a:hover.sublink-thearea, header .link-container span.sublink-thearea-selected {
@@ -396,8 +420,8 @@ header .link-container a:hover.sublink-thearea, header .link-container span.subl
 	text-decoration: none;
 	width: 91px;
 	height: 91px;
-	margin-top: 0;
-	margin-left: 0;
+	margin-top: -55px;
+	margin-left: 100px;
 }
 
 header .link-container a.sublink-theperks {
@@ -408,36 +432,12 @@ header .link-container a.sublink-theperks {
 	text-decoration: none;
 	width: 91px;
 	height: 91px;
-	margin-top: -55px;
-	margin-left: 100px;
-}
-
-header .link-container a:hover.sublink-theperks, header .link-container span.sublink-theperks-selected {
-	background: transparent url('../images/sublink-theperks.png') -91px 0;
-	position: relative;
-	display: block;
-	text-indent: -9999px;
-	text-decoration: none;
-	width: 91px;
-	height: 91px;
-	margin-top: -55px;
-	margin-left: 100px;
-}
-
-header .link-container a.sublink-thelook {
-	background: transparent url('../images/sublink-thelook.png') 0 0;
-	position: relative;
-	display: block;
-	text-indent: -9999px;
-	text-decoration: none;
-	width: 91px;
-	height: 91px;
 	margin-top: -15px;
 	margin-left: 170px;
 }
 
-header .link-container a:hover.sublink-thelook, header .link-container span.sublink-thelook-selected {
-	background: transparent url('../images/sublink-thelook.png') -91px 0;
+header .link-container a:hover.sublink-theperks, header .link-container span.sublink-theperks-selected {
+	background: transparent url('../images/sublink-theperks.png') -91px 0;
 	position: relative;
 	display: block;
 	text-indent: -9999px;
