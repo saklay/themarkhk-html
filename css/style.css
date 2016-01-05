@@ -683,7 +683,7 @@ footer .links span {
 }
 
 #leasingnow .leasingnow-container .leasingnow-content {
-	margin: 100px 60px 0 80px;
+	margin: 150px 60px 0 80px;
 	color: #333;
 	font-size: 18px;
 }
@@ -695,6 +695,16 @@ footer .links span {
 	padding-left: 40px !important;
 	vertical-align: middle;
 	display: inline-block;
+}
+
+#leasingnow .leasingnow-container .leasingnow-content .icon-name {
+	font-size: 25px !important;
+	line-height: 24px;
+	height: 25px;
+	padding-left: 0 !important;
+	vertical-align: middle;
+	display: inline-block;
+	white-space: nowrap;
 }
 
 #leasingnow .leasingnow-container .leasingnow-content .icon-phone {
